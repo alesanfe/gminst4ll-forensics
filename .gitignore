@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Large files (GitHub limit 100MB)
+malware_samples/gminst4ll/GMinst4ll 2.03.rar
+malware_samples/**/*.rar
+malware_samples/**/*.zip
+malware_samples/**/*.7z
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# External repositories
+yara_rules/
